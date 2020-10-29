@@ -44,6 +44,8 @@ source 'https://rubygems.org'
   gem 'dotenv-rails'
   gem 'faraday'
   gem 'scout_apm'
+  gem 'mdbootstrap-rails'
+
 
   group :production do
     gem 'pg', '~> 0.20.0'

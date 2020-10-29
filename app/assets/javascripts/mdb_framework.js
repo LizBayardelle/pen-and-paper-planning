@@ -1,1 +1,1 @@
-//= require mdb/mdb
+// = require mdb
