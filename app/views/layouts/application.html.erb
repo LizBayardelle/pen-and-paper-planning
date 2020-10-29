@@ -9,6 +9,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= include_gon %>
+
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag :application %>
     <%#= favicon_link_tag %>
@@ -34,7 +35,6 @@
 
     <%= render 'layouts/footer' %>
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <%= javascript_include_tag 'mdb_framework'%>
 
     <%= yield :additional_js %>
   </body>

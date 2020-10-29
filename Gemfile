@@ -46,6 +46,8 @@ source 'https://rubygems.org'
   gem 'scout_apm'
   gem 'mdbootstrap-rails'
 
+  gem 'tether-rails'
+
 
   group :production do
     gem 'pg', '~> 0.20.0'

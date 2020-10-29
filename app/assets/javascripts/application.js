@@ -14,7 +14,9 @@
 //= require jquery_ujs
 //= require jquery-ui
 //= require popper
+//= require tether
 //= require bootstrap
 //= require activestorage
 //= require font_awesome5
 //= require tinymce
+//= require mdb/mdb.min
